@@ -36,7 +36,7 @@ class ProgrammerClicker:
         pygame.mixer.music.set_volume(0.30)
         self.money = 0
         self.multiplayer = 1
-        self.money_in_sec = 1
+        self.money_in_sec = 0
         self.last_tick_time = pygame.time.get_ticks()
         self.main_screen = pygame.sprite.Group()
         self.ClickButton = ClickButton(self.main_screen)
